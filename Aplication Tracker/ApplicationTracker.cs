@@ -59,6 +59,7 @@ namespace Aplication_Tracker
                     worksheet.Cells[newRow, 6].Value = TrackerObj.ContactName;
                     worksheet.Cells[newRow, 7].Value = TrackerObj.Notes;
                     worksheet.Cells[newRow, 8].Value = TrackerObj.IsH1B;
+                    worksheet.Cells[newRow, 9].Value = TrackerObj.DateAndDay;
                     package.SaveAsync();
                 }
 

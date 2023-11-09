@@ -17,6 +17,8 @@ namespace Aplication_Tracker.Models
         public string ContactName { get; set; }
         public string Notes { get; set; }
 
+        public string DateAndDay { get; set; }
+
         public TrackerData()
         {
             this.CompanyName = string.Empty;
@@ -27,6 +29,7 @@ namespace Aplication_Tracker.Models
             this.IsSDE = false;
             this.IsHandshake = false;
             this.Notes = string.Empty;
+            this.DateAndDay = DateTime.Now.ToString("MM/dd/yyyy");
         }
 
     }
