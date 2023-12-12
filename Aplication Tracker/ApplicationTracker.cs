@@ -8,7 +8,7 @@ namespace Aplication_Tracker
 {
     public partial class ApplicationTracker : Form
     {
-        public const string path = "C:\\Users\\Parit\\source\\repos\\Aplication Tracker\\Aplication Tracker\\Tracker.xlsx";
+        public const string path = "D:\\Application-Tracker\\Tracker.xlsx";
         
         public TrackerData TrackerObj { get; set; }
         public ApplicationTracker()
